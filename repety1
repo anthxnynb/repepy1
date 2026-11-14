@@ -1,0 +1,9 @@
+a = int(input("Ingrese el primer numero: "))
+b = int(input("Ingrese el segundo numero: "))
+
+while b != 0:
+    residuo = a % b
+    a = b
+    b = residuo
+
+print("El MCD es:", a)
